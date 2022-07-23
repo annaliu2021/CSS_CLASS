@@ -1,0 +1,289 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ****************************** */
+/* ****************************** */
+/* ****************************** */
+
+body {
+    font-family: Roboto, "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif,
+        serif;
+    color: #000;
+    line-height: 1.5;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1 {
+    font-size: 80px;
+    line-height: 1.3;
+    font-weight: 900;
+}
+
+header .banner {
+    background-image: url(../images/banner.png);
+    height: 958px;
+    background-size: cover;
+    background-position: center center;
+}
+
+header ul.content {
+    margin: auto;
+}
+
+h2 {
+    font-size: 64px;
+    font-style: italic;
+    line-height: 1.3125;
+    font-weight: 500;
+}
+
+.container {
+    width: 1200px;
+}
+
+.about ul.ul-style-disc {
+    /* list-style: disc;
+    list-style-position: inside; */
+}
+
+.about ul.ul-style-disc > li::before {
+    content: '\25CF';
+    color: #891818;
+    margin-right: 16px;
+    width: 22px;
+    height: 22px;
+}
+
+.about hr {
+    width: 384px;
+    color: #000;
+    margin-top: 24px;
+}
+
+.works p{
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+/* ****************************** */
+/* ****************************** */
+/* ****************************** */
+
+.text-center {
+    text-align: center;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.fsize-20 {
+    font-size: 20px;
+}
+
+.fw-medium {
+    font-weight: 500;
+}
+
+.fw-blod {
+    font-weight: 700;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.ms-16 {
+    margin-left: 16px;
+}
+
+.ms-24 {
+    margin-left: 24px;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-28 {
+    margin-top: 28px;
+}
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-48 {
+    margin-top: 48px;
+}
+
+.mt-56 {
+    margin-top: 56px;
+}
+
+.mt-68 {
+    margin-top: 68px;
+}
+
+.mt-144 {
+    margin-top: 144px;
+}
+
+.px-64 {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.pt-56 {
+    padding-top: 56px;
+}
+
+.pb-160 {
+    padding-bottom: 160px;
+}
